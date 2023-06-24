@@ -8,7 +8,12 @@ Using the STEMMA QT connector (the small one, on the back side of the display),y
 ![](/images/938-08.jpg)
 
 
-## Programming
+## Programming 
+
+### Setup Arduino IDE to use Adafruit boards
+See detailed instructions at this page https://learn.adafruit.com/adafruit-arduino-ide-setup/arduino-1-dot-6-x-ide 
+It looks a little obsolete, but works OK with new Arduino versions too. 
+
 
 ### Install Arduino Libraries
 Using these OLEDs with Arduino sketches requires that two libraries be installed: Adafruit_SSD1306, which handles the low-level communication with the hardware, and Adafruit_GFX, which builds atop this to add graphics and high level text functions.
@@ -25,7 +30,13 @@ Using these OLEDs with Arduino sketches requires that two libraries be installed
 4. After installing the Adafruit_SSD1306 and Adafruit_GFX libraries, close and restart the Arduino IDE.
 
 ### Download the code
-Download the code in a folder with the same name or just copy & paste it to your Arduino Window.
+Download the code in a folder with the same name or just copy & paste it to your own Arduino sketch.
+-x
+
+
+
+
+
 
 
 
