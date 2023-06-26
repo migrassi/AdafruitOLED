@@ -3,10 +3,13 @@ How to connect (and program) an Adafruit OLED 128x64 display to the Playground E
 
 ## Connecting
 
-Using the STEMMA QT connector (the small one, on the back side of the display),you need to connect only 4 cables to the board using coco clips or soldering its:
+Using the STEMMA QT connector (the small one, on the back side of the display),you need to connect only 4 cables to the board using coco clips or soldering its, as in the following images.
+
+**Be sure to put the wire colors in the same order!!**
 
 ![](/images/938-08.jpg)
 
+![](/images/2023-06-25%20at%2022.49.44.jpeg)
 
 ## Programming 
 
@@ -50,8 +53,11 @@ You can set the following program parameters in the USER SETTING AREA of the pro
 
 Also, you can use the slide switch en the board to choose between two modes:
 
- - Moving it to the left, turns the red LED off and set the scroll mode to the default mode, which originally can be established in the USER SETTING AREA.
- - Moving it to the right, turns the red LED on and set the scroll mode to "multiple", meaning that you can alternate scroll modes by pressing the right button on the board 
+  - Moving it to the left, turns the red LED on and set the scroll mode to "multiple", meaning that you can alternate scroll modes by pressing the left button on the board 
+- Moving it to the right, turns the red LED off and fix the last scroll mode selected.
+Be aware that booting the board the scroll mode will be returned to the default mode, as it has been establishedd in the USER SETTING AREA.
+
+[![](https://markdown-videos.deta/youtube/{RBi8kSpZZxw})](https://youtu.be/{RBi8kSpZZxw})
 
 Enjoy it !!
 
