@@ -16,13 +16,16 @@
     - The speed of vertical and horizontal scrolling
     
   Use the slide switch to choose between two modes:
-    - Moving it to the left, turn the red LED off and set the scroll mode to the default  
-      mode, which originally can be established in the USER SETTING AREA.
-    - Moving it to the right, turn the red LED on and set the scroll mode to "multiple",
-      meaning that you can alternate scroll modes by pressing the right button on the board 
+    - Moving it to the left, turns the red LED on and set the scroll mode to "multiple",
+      meaning that you can alternate scroll modes by pressing the left button on the board 
+    - Moving it to the right, turns the red LED off and fix the last scroll mode selected.
+      Be aware that booting the board the scroll mode will be returned to the default mode,
+      which originally can be established in the USER SETTING AREA.
+      See this short video: https://www.youtube.com/shorts/RBi8kSpZZxw
+
 -------------------------------------------------------------------------------------------
   Attribution-NonCommercial-ShareAlike 2.0 Generic
-  (CC BY-NC-SA 2.0) Miguel Grassi - https://github.com/migrassi/
+  (CC BY-NC-SA 2.0) Miguel Grassi - https://github.com/migrassi/AdafruitOLED
 */
 #include <Adafruit_CircuitPlayground.h>
 #include <SPI.h>
