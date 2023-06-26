@@ -11,7 +11,11 @@ Using the STEMMA QT connector (the small one, on the back side of the display),y
 ## Programming 
 
 ### Setup Arduino IDE to use Adafruit boards
-See detailed instructions at this page https://learn.adafruit.com/adafruit-arduino-ide-setup/arduino-1-dot-6-x-ide 
+
+See detailed instructions at this page:
+https://learn.adafruit.com/adafruit-circuit-playground-express/set-up-arduino-ide
+
+If you have any problem with the procedure, you can try using the old fashioned procedure: https://learn.adafruit.com/adafruit-arduino-ide-setup/arduino-1-dot-6-x-ide 
 It looks a little obsolete, but works OK with new Arduino versions too. 
 
 
@@ -30,14 +34,26 @@ Using these OLEDs with Arduino sketches requires that two libraries be installed
 4. After installing the Adafruit_SSD1306 and Adafruit_GFX libraries, close and restart the Arduino IDE.
 
 ### Download the code
-Download the code in a folder with the same name or just copy & paste it to your own Arduino sketch.
--x
+Download [the code](/code/PlayGroundOLEDText.ino) in a folder **with the same name that the file** (PlayGroundOLEDText) or just copy & paste it to your own Arduino sketch.
 
+### Using the code
 
+The code was made to display text on a small OLED screen. It can be set as static, scrolling to the left or scrolling up.
 
+You can set the following program parameters in the USER SETTING AREA of the program, without need of modify the main code area:
 
+    - The text to show in the screen
+    - The font size to use 
+    - The space between lines
+    - The default scroll mode
+    - The speed of vertical and horizontal scrolling
 
+Also, you can use the slide switch en thhe board to choose between two modes:
 
+    - Moving it to the left, turn the red LED off and set the scroll mode to the default mode, which originally can be established in the USER SETTING AREA.
+    - Moving it to the right, turn the red LED on and set the scroll mode to "multiple", meaning that you can alternate scroll modes by pressing the right button on the board 
+
+Enjoy !!
 
 
 
