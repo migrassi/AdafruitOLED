@@ -57,7 +57,9 @@ Also, you can use the slide switch en the board to choose between two modes:
 - Moving it to the right, turns the red LED off and fix the last scroll mode selected.
 Be aware that booting the board the scroll mode will be returned to the default mode, as it has been establishedd in the USER SETTING AREA.
 
-[![](https://markdown-videos.deta/youtube/{RBi8kSpZZxw})](https://youtu.be/{RBi8kSpZZxw})
+See this short Video: 
+
+[![See the short Video](https://img.youtube.com/vi/RBi8kSpZZxw/0.jpg)](https://youtube.com/shorts/RBi8kSpZZxw)
 
 Enjoy it !!
 
